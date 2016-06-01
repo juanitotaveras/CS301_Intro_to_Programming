@@ -1,0 +1,6 @@
+def main():
+    userdata = int(input("Enter the subtotal and gratuity: "))
+    subtotal, total = userdata.split
+    print(subtotal)
+    print(total)
+main()

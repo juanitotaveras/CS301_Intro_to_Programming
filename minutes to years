@@ -1,0 +1,7 @@
+#Have user input number of minutes and convert/output that in years and days
+def main():
+    minutes = int(input("Enter the number of minutes: "))
+    years = minutes // (60 * 24 * 365)
+    print (minutes, "minutes is approximately" + years "years and" days "days")
+main()
+
